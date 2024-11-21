@@ -27,6 +27,7 @@ export default defineComponent({
     :locale="locale"
     :date-locale="dateLocale"
     :hljs="hljs"
+    :theme-overrides="themeOverrides"
   >
     <n-theme-editor :style="themeEditorStyle">
       <n-loading-bar-provider>

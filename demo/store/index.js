@@ -11,6 +11,7 @@ import {
 } from 'naive-ui'
 import { TsConfigProvider } from '../../themes/tusimple/src'
 import { i18n, useIsMobile } from '../utils/composables'
+import { themeOverrides } from '../techlink-theme'
 import {
   createComponentMenuOptions,
   createDocumentationMenuOptions
@@ -134,7 +135,8 @@ export function siteSetup() {
     themeName: themeNameRef,
     theme: themeRef,
     locale: localeRef,
-    dateLocale: dateLocaleRef
+    dateLocale: dateLocaleRef,
+    themeOverrides
   }
 }
 
